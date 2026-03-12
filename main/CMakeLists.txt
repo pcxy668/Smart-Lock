@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "./Dri/Dri_i2c.c"
+        "./Com/Com_utils.c"
+        "./Int/Int_sc12b.c"
+        "./Int/Int_wtn6080e.c"
+        "./Int/Int_ws2812b.c"
+        "./Int/Int_fpm383.c"
+        "./Int/Int_bluetooth.c"
+        "./Int/Int_wifi.c"
+        "./Int/Int_sntp.c"
+        "./Int/Int_tempPassword.c"
+        "./Int/Int_OTA.c"
+        "./Int/Int_motor.c"
+    INCLUDE_DIRS 
+        "./Dri"
+        "./Int"
+        "./Com"
+    )   
